@@ -45,8 +45,8 @@ function fetchDataT() {
     .catch((err) => console.error(err));
 }
 
-fetchDataAA();
-// fetchDataT();
+// fetchDataAA();
+fetchDataT();
 
 function render(arr) {
   element.innerHTML = "";
