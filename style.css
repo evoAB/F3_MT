@@ -1,0 +1,78 @@
+* {
+    color: white;
+    background: #1a1a1c;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  
+    #search {
+      border: 1px solid white;
+      width: 600px;
+      padding: 6.5px;
+      margin-right: 10px;
+    }
+  
+    button {
+      border: 1px solid white;
+      height: 50px;
+      width: 180px;
+  
+      margin-right: 10px;
+    }
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .coin {
+    display: flex;
+    gap: 3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+    .name,
+    .symbol {
+      width: 10rem;
+    }
+  
+    .current_price {
+      text-align: right;
+      width: 5rem;
+    }
+    .market_cap {
+      width: 15rem;
+      text-align: right;
+    }
+  
+    .price_change_percentage_24h {
+      width: 5rem;
+      text-align: right;
+    }
+    .total_volume {
+      width: 8rem;
+      text-align: center;
+    }
+    div {
+      margin: 10px;
+    }
+  }
